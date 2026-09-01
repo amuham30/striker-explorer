@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# project data backups (keep only the runtime JSONs)
+data/*.bak
+data/*.bak2
+data/*.pre_*
+
+# playwright CLI session artifacts
+.playwright-cli/

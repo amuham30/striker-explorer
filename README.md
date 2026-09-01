@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚽ Striker Explorer
 
-## Getting Started
+A dark-theme soccer scouting dashboard covering the **top 10 leagues** — browse a 4,256-player pool by league, club, position, value and **season (2014/15–2024/25)**, rank by a position-specific **Impact Score**, compare players head-to-head, and dig into per-player spec sheets.
 
-First, run the development server:
+> Data: Understat (per-90 stats + shot-level xG) & Transfermarkt (market values) for the top-5 leagues; SofaScore completed seasons for BRA/POR/MLS/BEL/ENG2.
+
+## Features
+
+- **Browse** (`/`) — filter sidebar with custom SoFIFA-style dropdowns (position with counts, season, league, club — all with logos/crests), gold dual-range sliders (Age / Value €M / Minutes) with editable min–max boxes, table with responsive column tiers, bottom-only pagination. Sort by any column; season switcher swaps the whole dataset.
+- **Compare** (`/compare`) — up to 4 player×season slots on a recharts radar (5–7 axes, normalized 0–100 vs. the pool's 99th percentile — outlier-robust). Polygons **morph smoothly** when you add players or toggle axes. Tooltip shows raw per-90 values.
+- **Value Map** (`/value-map`) — every valued player (450+ minutes) plotted market value × Impact, bubble = minutes. Bargain quadrant upper-left. Position-group toggles, click-through to players.
+- **Ballon d'Or** (`/ballondor`) — historical timeline.
+- **Barça Fit** (`/barca`) — transfer-target fit ranking, excludes current Barça players.
+- **Player sheets** (`/player?p=…&id=…`) — season-aware spec sheet: Impact hero, percentile tiles, career panels, age-curve chart vs. the pool.
+
+### Impact Score
+
+Percentile-based, **per position group** (ATT/MID/DEF/GK) with per-position weights: ST/W finishing-heavy, mids blend creation + ball-winning, CBs/FBs on defensive work + availability, GKs on shot-stopping. Missing stats are skipped and weights renormalized. Bulk scoring (`computeImpactBulk`) builds pools once per group for tables.
+
+> **Identity rule:** 41 duplicated names exist in the pool — players are always resolved by `(name, team)` / `(name, id)`, never by name alone.
+
+## Tech stack
+
+- **Next.js 16** (App Router, Turbopack) + React 19 + Tailwind CSS 4
+- **recharts** (radar, scatter) · **@visx** vendored kit (`src/components/charts/`) for the age-curve line chart
+- **animejs** (count-ups) · **motion** · **lucide-react**
+- Data pipeline (Python, repo root): Understat/SofaScore scrapers, Transfermarkt values, percentile & history builders
+
+## Getting started
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> The app reads JSON datasets from `data/` at request time (`strikers.json`, `history_compare.json`, `history_percentiles.json`, `history.json`, `age_curve.json`). Those are committed so the app runs out of the box.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build      # production build
+npm run start      # serve the build
+npm run lint       # eslint
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project structure
 
-## Learn More
+```
+webapp/
+├── src/
+│   ├── app/            # routes: / /compare /value-map /barca /ballondor /player /api/history
+│   ├── components/     # browse-table, compare-view, player-detail, value-map, …
+│   │   ├── charts/     # vendored visx line-chart kit (age curve)
+│   │   └── kokonutui/  # shimmer-text
+│   └── lib/            # impact.ts (Impact Score), history.ts, positions.fifa.ts, team-badges.ts
+├── data/               # runtime datasets (JSON) + pipeline outputs
+└── public/             # club badges, league logos, shot maps
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Design system
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Dark "broadcast graphics" identity — gold/blau/garnet tokens defined in `src/app/globals.css` as the single source of truth; see `src/DESIGN_SYSTEM.md`. UI laws: no horizontal scroll, no truncated text (short names instead), no native selects, no KPI strips/podiums.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Verification
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `npx tsc --noEmit` — clean
+- `npm run build` — clean
+- Playwright-measured: zero horizontal overflow, zero hydration errors, all routes 200

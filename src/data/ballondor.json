@@ -1,0 +1,868 @@
+{
+  "source": "Wikipedia Ballon d'Or year pages (fetched Aug 2026). FIFA joint era 2010-2015 officially published only the top 3; France Football era 2016+ includes full top 5. 2020 not awarded (Covid).",
+  "seasons": [
+    {
+      "year": 2010,
+      "note": "FIFA Ballon d'Or — only top 3 officially ranked",
+      "top5": [
+        {
+          "year": 2010,
+          "rank": 1,
+          "player_name": "Lionel Messi",
+          "club": "Barcelona"
+        },
+        {
+          "year": 2010,
+          "rank": 2,
+          "player_name": "Andrés Iniesta",
+          "club": "Barcelona"
+        },
+        {
+          "year": 2010,
+          "rank": 3,
+          "player_name": "Xavi",
+          "club": "Barcelona"
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "note": "FIFA Ballon d'Or — only top 3 officially ranked",
+      "top5": [
+        {
+          "year": 2011,
+          "rank": 1,
+          "player_name": "Lionel Messi",
+          "club": "Barcelona"
+        },
+        {
+          "year": 2011,
+          "rank": 2,
+          "player_name": "Cristiano Ronaldo",
+          "club": "Real Madrid"
+        },
+        {
+          "year": 2011,
+          "rank": 3,
+          "player_name": "Xavi",
+          "club": "Barcelona"
+        },
+        {
+          "year": 2011,
+          "rank": 4,
+          "player_name": "Andrés Iniesta",
+          "club": "Barcelona"
+        },
+        {
+          "year": 2011,
+          "rank": 5,
+          "player_name": "Xabi Alonso",
+          "club": "Real Madrid"
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "note": "FIFA Ballon d'Or — only top 3 officially ranked",
+      "top5": [
+        {
+          "year": 2012,
+          "rank": 1,
+          "player_name": "Lionel Messi",
+          "club": "Barcelona"
+        },
+        {
+          "year": 2012,
+          "rank": 2,
+          "player_name": "Cristiano Ronaldo",
+          "club": "Real Madrid"
+        },
+        {
+          "year": 2012,
+          "rank": 3,
+          "player_name": "Andrés Iniesta",
+          "club": "Barcelona"
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "note": "FIFA Ballon d'Or — only top 3 officially ranked",
+      "top5": [
+        {
+          "year": 2013,
+          "rank": 1,
+          "player_name": "Cristiano Ronaldo",
+          "club": "Real Madrid"
+        },
+        {
+          "year": 2013,
+          "rank": 2,
+          "player_name": "Lionel Messi",
+          "club": "Barcelona"
+        },
+        {
+          "year": 2013,
+          "rank": 3,
+          "player_name": "Franck Ribéry",
+          "club": "Bayern Munich"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "note": "FIFA Ballon d'Or — only top 3 officially ranked",
+      "top5": [
+        {
+          "year": 2014,
+          "rank": 1,
+          "player_name": "Cristiano Ronaldo",
+          "club": "Real Madrid"
+        },
+        {
+          "year": 2014,
+          "rank": 2,
+          "player_name": "Lionel Messi",
+          "club": "Barcelona"
+        },
+        {
+          "year": 2014,
+          "rank": 3,
+          "player_name": "Manuel Neuer",
+          "club": "Bayern Munich"
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "note": "FIFA Ballon d'Or — only top 3 officially ranked",
+      "top5": [
+        {
+          "year": 2015,
+          "rank": 1,
+          "player_name": "Lionel Messi",
+          "club": "Barcelona"
+        },
+        {
+          "year": 2015,
+          "rank": 2,
+          "player_name": "Cristiano Ronaldo",
+          "club": "Real Madrid"
+        },
+        {
+          "year": 2015,
+          "rank": 3,
+          "player_name": "Neymar",
+          "club": "Barcelona"
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "top5": [
+        {
+          "year": 2016,
+          "rank": 1,
+          "player_name": "Cristiano Ronaldo",
+          "club": "Real Madrid"
+        },
+        {
+          "year": 2016,
+          "rank": 2,
+          "player_name": "Lionel Messi",
+          "club": "Barcelona"
+        },
+        {
+          "year": 2016,
+          "rank": 3,
+          "player_name": "Antoine Griezmann",
+          "club": "Atlético Madrid"
+        },
+        {
+          "year": 2016,
+          "rank": 4,
+          "player_name": "Luis Suárez",
+          "club": "Barcelona"
+        },
+        {
+          "year": 2016,
+          "rank": 5,
+          "player_name": "Neymar",
+          "club": "Barcelona"
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "top5": [
+        {
+          "year": 2017,
+          "rank": 1,
+          "player_name": "Cristiano Ronaldo",
+          "club": "Real Madrid"
+        },
+        {
+          "year": 2017,
+          "rank": 2,
+          "player_name": "Lionel Messi",
+          "club": "Barcelona"
+        },
+        {
+          "year": 2017,
+          "rank": 3,
+          "player_name": "Neymar",
+          "club": "Barcelona"
+        },
+        {
+          "year": 2017,
+          "rank": 4,
+          "player_name": "Gianluigi Buffon",
+          "club": "Juventus"
+        },
+        {
+          "year": 2017,
+          "rank": 5,
+          "player_name": "Luka Modrić",
+          "club": "Real Madrid"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "top5": [
+        {
+          "year": 2018,
+          "rank": 1,
+          "player_name": "Luka Modrić",
+          "club": "Real Madrid"
+        },
+        {
+          "year": 2018,
+          "rank": 2,
+          "player_name": "Cristiano Ronaldo",
+          "club": "Real Madrid"
+        },
+        {
+          "year": 2018,
+          "rank": 3,
+          "player_name": "Antoine Griezmann",
+          "club": "Atlético Madrid"
+        },
+        {
+          "year": 2018,
+          "rank": 4,
+          "player_name": "Kylian Mbappé",
+          "club": "Paris Saint-Germain"
+        },
+        {
+          "year": 2018,
+          "rank": 5,
+          "player_name": "Lionel Messi",
+          "club": "Barcelona"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "top5": [
+        {
+          "year": 2019,
+          "rank": 1,
+          "player_name": "Lionel Messi",
+          "club": "Barcelona"
+        },
+        {
+          "year": 2019,
+          "rank": 2,
+          "player_name": "Virgil van Dijk",
+          "club": "Liverpool"
+        },
+        {
+          "year": 2019,
+          "rank": 3,
+          "player_name": "Cristiano Ronaldo",
+          "club": "Juventus"
+        },
+        {
+          "year": 2019,
+          "rank": 4,
+          "player_name": "Sadio Mané",
+          "club": "Liverpool"
+        },
+        {
+          "year": 2019,
+          "rank": 5,
+          "player_name": "Mohamed Salah",
+          "club": "Liverpool"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "top5": [
+        {
+          "year": 2021,
+          "rank": 1,
+          "player_name": "Lionel Messi",
+          "club": "Paris Saint-Germain"
+        },
+        {
+          "year": 2021,
+          "rank": 2,
+          "player_name": "Robert Lewandowski",
+          "club": "Bayern Munich"
+        },
+        {
+          "year": 2021,
+          "rank": 3,
+          "player_name": "Jorginho",
+          "club": "Chelsea"
+        },
+        {
+          "year": 2021,
+          "rank": 4,
+          "player_name": "Karim Benzema",
+          "club": "Real Madrid"
+        },
+        {
+          "year": 2021,
+          "rank": 5,
+          "player_name": "N'Golo Kanté",
+          "club": "Chelsea"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "top5": [
+        {
+          "year": 2022,
+          "rank": 1,
+          "player_name": "Karim Benzema",
+          "club": "Real Madrid"
+        },
+        {
+          "year": 2022,
+          "rank": 2,
+          "player_name": "Sadio Mané",
+          "club": "Liverpool"
+        },
+        {
+          "year": 2022,
+          "rank": 3,
+          "player_name": "Kevin De Bruyne",
+          "club": "Manchester City"
+        },
+        {
+          "year": 2022,
+          "rank": 4,
+          "player_name": "Robert Lewandowski",
+          "club": "Bayern Munich"
+        },
+        {
+          "year": 2022,
+          "rank": 5,
+          "player_name": "Kylian Mbappé",
+          "club": "Paris Saint-Germain"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "top5": [
+        {
+          "year": 2023,
+          "rank": 1,
+          "player_name": "Lionel Messi",
+          "club": "Paris Saint-Germain"
+        },
+        {
+          "year": 2023,
+          "rank": 2,
+          "player_name": "Erling Haaland",
+          "club": "Manchester City"
+        },
+        {
+          "year": 2023,
+          "rank": 3,
+          "player_name": "Kylian Mbappé",
+          "club": "Paris Saint-Germain"
+        },
+        {
+          "year": 2023,
+          "rank": 4,
+          "player_name": "Kevin De Bruyne",
+          "club": "Manchester City"
+        },
+        {
+          "year": 2023,
+          "rank": 5,
+          "player_name": "Victor Osimhen",
+          "club": "Napoli"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "top5": [
+        {
+          "year": 2024,
+          "rank": 1,
+          "player_name": "Rodri",
+          "club": "Manchester City"
+        },
+        {
+          "year": 2024,
+          "rank": 2,
+          "player_name": "Vinícius Júnior",
+          "club": "Real Madrid"
+        },
+        {
+          "year": 2024,
+          "rank": 3,
+          "player_name": "Jude Bellingham",
+          "club": "Real Madrid"
+        },
+        {
+          "year": 2024,
+          "rank": 4,
+          "player_name": "Dani Carvajal",
+          "club": "Real Madrid"
+        },
+        {
+          "year": 2024,
+          "rank": 5,
+          "player_name": "Erling Haaland",
+          "club": "Manchester City"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "top5": [
+        {
+          "year": 2025,
+          "rank": 1,
+          "player_name": "Ousmane Dembélé",
+          "club": "Paris Saint-Germain"
+        },
+        {
+          "year": 2025,
+          "rank": 2,
+          "player_name": "Lamine Yamal",
+          "club": "Barcelona"
+        },
+        {
+          "year": 2025,
+          "rank": 3,
+          "player_name": "Vitinha",
+          "club": "Paris Saint-Germain"
+        },
+        {
+          "year": 2025,
+          "rank": 4,
+          "player_name": "Mohamed Salah",
+          "club": "Liverpool"
+        },
+        {
+          "year": 2025,
+          "rank": 5,
+          "player_name": "Raphinha",
+          "club": "Barcelona"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "year": 2010,
+      "rank": 1,
+      "player_name": "Lionel Messi",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2010,
+      "rank": 2,
+      "player_name": "Andrés Iniesta",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2010,
+      "rank": 3,
+      "player_name": "Xavi",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2011,
+      "rank": 1,
+      "player_name": "Lionel Messi",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2011,
+      "rank": 2,
+      "player_name": "Cristiano Ronaldo",
+      "club": "Real Madrid"
+    },
+    {
+      "year": 2011,
+      "rank": 3,
+      "player_name": "Xavi",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2011,
+      "rank": 4,
+      "player_name": "Andrés Iniesta",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2011,
+      "rank": 5,
+      "player_name": "Xabi Alonso",
+      "club": "Real Madrid"
+    },
+    {
+      "year": 2012,
+      "rank": 1,
+      "player_name": "Lionel Messi",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2012,
+      "rank": 2,
+      "player_name": "Cristiano Ronaldo",
+      "club": "Real Madrid"
+    },
+    {
+      "year": 2012,
+      "rank": 3,
+      "player_name": "Andrés Iniesta",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2013,
+      "rank": 1,
+      "player_name": "Cristiano Ronaldo",
+      "club": "Real Madrid"
+    },
+    {
+      "year": 2013,
+      "rank": 2,
+      "player_name": "Lionel Messi",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2013,
+      "rank": 3,
+      "player_name": "Franck Ribéry",
+      "club": "Bayern Munich"
+    },
+    {
+      "year": 2014,
+      "rank": 1,
+      "player_name": "Cristiano Ronaldo",
+      "club": "Real Madrid"
+    },
+    {
+      "year": 2014,
+      "rank": 2,
+      "player_name": "Lionel Messi",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2014,
+      "rank": 3,
+      "player_name": "Manuel Neuer",
+      "club": "Bayern Munich"
+    },
+    {
+      "year": 2015,
+      "rank": 1,
+      "player_name": "Lionel Messi",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2015,
+      "rank": 2,
+      "player_name": "Cristiano Ronaldo",
+      "club": "Real Madrid"
+    },
+    {
+      "year": 2015,
+      "rank": 3,
+      "player_name": "Neymar",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2016,
+      "rank": 1,
+      "player_name": "Cristiano Ronaldo",
+      "club": "Real Madrid"
+    },
+    {
+      "year": 2016,
+      "rank": 2,
+      "player_name": "Lionel Messi",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2016,
+      "rank": 3,
+      "player_name": "Antoine Griezmann",
+      "club": "Atlético Madrid"
+    },
+    {
+      "year": 2016,
+      "rank": 4,
+      "player_name": "Luis Suárez",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2016,
+      "rank": 5,
+      "player_name": "Neymar",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2017,
+      "rank": 1,
+      "player_name": "Cristiano Ronaldo",
+      "club": "Real Madrid"
+    },
+    {
+      "year": 2017,
+      "rank": 2,
+      "player_name": "Lionel Messi",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2017,
+      "rank": 3,
+      "player_name": "Neymar",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2017,
+      "rank": 4,
+      "player_name": "Gianluigi Buffon",
+      "club": "Juventus"
+    },
+    {
+      "year": 2017,
+      "rank": 5,
+      "player_name": "Luka Modrić",
+      "club": "Real Madrid"
+    },
+    {
+      "year": 2018,
+      "rank": 1,
+      "player_name": "Luka Modrić",
+      "club": "Real Madrid"
+    },
+    {
+      "year": 2018,
+      "rank": 2,
+      "player_name": "Cristiano Ronaldo",
+      "club": "Real Madrid"
+    },
+    {
+      "year": 2018,
+      "rank": 3,
+      "player_name": "Antoine Griezmann",
+      "club": "Atlético Madrid"
+    },
+    {
+      "year": 2018,
+      "rank": 4,
+      "player_name": "Kylian Mbappé",
+      "club": "Paris Saint-Germain"
+    },
+    {
+      "year": 2018,
+      "rank": 5,
+      "player_name": "Lionel Messi",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2019,
+      "rank": 1,
+      "player_name": "Lionel Messi",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2019,
+      "rank": 2,
+      "player_name": "Virgil van Dijk",
+      "club": "Liverpool"
+    },
+    {
+      "year": 2019,
+      "rank": 3,
+      "player_name": "Cristiano Ronaldo",
+      "club": "Juventus"
+    },
+    {
+      "year": 2019,
+      "rank": 4,
+      "player_name": "Sadio Mané",
+      "club": "Liverpool"
+    },
+    {
+      "year": 2019,
+      "rank": 5,
+      "player_name": "Mohamed Salah",
+      "club": "Liverpool"
+    },
+    {
+      "year": 2021,
+      "rank": 1,
+      "player_name": "Lionel Messi",
+      "club": "Paris Saint-Germain"
+    },
+    {
+      "year": 2021,
+      "rank": 2,
+      "player_name": "Robert Lewandowski",
+      "club": "Bayern Munich"
+    },
+    {
+      "year": 2021,
+      "rank": 3,
+      "player_name": "Jorginho",
+      "club": "Chelsea"
+    },
+    {
+      "year": 2021,
+      "rank": 4,
+      "player_name": "Karim Benzema",
+      "club": "Real Madrid"
+    },
+    {
+      "year": 2021,
+      "rank": 5,
+      "player_name": "N'Golo Kanté",
+      "club": "Chelsea"
+    },
+    {
+      "year": 2022,
+      "rank": 1,
+      "player_name": "Karim Benzema",
+      "club": "Real Madrid"
+    },
+    {
+      "year": 2022,
+      "rank": 2,
+      "player_name": "Sadio Mané",
+      "club": "Liverpool"
+    },
+    {
+      "year": 2022,
+      "rank": 3,
+      "player_name": "Kevin De Bruyne",
+      "club": "Manchester City"
+    },
+    {
+      "year": 2022,
+      "rank": 4,
+      "player_name": "Robert Lewandowski",
+      "club": "Bayern Munich"
+    },
+    {
+      "year": 2022,
+      "rank": 5,
+      "player_name": "Kylian Mbappé",
+      "club": "Paris Saint-Germain"
+    },
+    {
+      "year": 2023,
+      "rank": 1,
+      "player_name": "Lionel Messi",
+      "club": "Paris Saint-Germain"
+    },
+    {
+      "year": 2023,
+      "rank": 2,
+      "player_name": "Erling Haaland",
+      "club": "Manchester City"
+    },
+    {
+      "year": 2023,
+      "rank": 3,
+      "player_name": "Kylian Mbappé",
+      "club": "Paris Saint-Germain"
+    },
+    {
+      "year": 2023,
+      "rank": 4,
+      "player_name": "Kevin De Bruyne",
+      "club": "Manchester City"
+    },
+    {
+      "year": 2023,
+      "rank": 5,
+      "player_name": "Victor Osimhen",
+      "club": "Napoli"
+    },
+    {
+      "year": 2024,
+      "rank": 1,
+      "player_name": "Rodri",
+      "club": "Manchester City"
+    },
+    {
+      "year": 2024,
+      "rank": 2,
+      "player_name": "Vinícius Júnior",
+      "club": "Real Madrid"
+    },
+    {
+      "year": 2024,
+      "rank": 3,
+      "player_name": "Jude Bellingham",
+      "club": "Real Madrid"
+    },
+    {
+      "year": 2024,
+      "rank": 4,
+      "player_name": "Dani Carvajal",
+      "club": "Real Madrid"
+    },
+    {
+      "year": 2024,
+      "rank": 5,
+      "player_name": "Erling Haaland",
+      "club": "Manchester City"
+    },
+    {
+      "year": 2025,
+      "rank": 1,
+      "player_name": "Ousmane Dembélé",
+      "club": "Paris Saint-Germain"
+    },
+    {
+      "year": 2025,
+      "rank": 2,
+      "player_name": "Lamine Yamal",
+      "club": "Barcelona"
+    },
+    {
+      "year": 2025,
+      "rank": 3,
+      "player_name": "Vitinha",
+      "club": "Paris Saint-Germain"
+    },
+    {
+      "year": 2025,
+      "rank": 4,
+      "player_name": "Mohamed Salah",
+      "club": "Liverpool"
+    },
+    {
+      "year": 2025,
+      "rank": 5,
+      "player_name": "Raphinha",
+      "club": "Barcelona"
+    }
+  ]
+}
