@@ -1,6 +1,9 @@
 import json, re, urllib.request
-curve = json.load(open("/Users/amuham/citadel/striker_project/webapp/data/age_curve.json"))["curve"]
-ps = json.load(open("/Users/amuham/citadel/striker_project/webapp/data/strikers.json"))["players"]
+from pathlib import Path
+
+DATA = Path(__file__).resolve().parent.parent / "data"
+curve = json.load(open(DATA / "age_curve.json"))["curve"]
+ps = json.load(open(DATA / "strikers.json"))["players"]
 salah = [p for p in ps if p["player_name"] == "Mohamed Salah"][0]
 print("Salah age:", salah["age"], "g+a/90:", salah.get("g_plus_a_per90"))
 print("curve keys:", sorted(curve.keys()))
